@@ -3,7 +3,7 @@ import pandas as pd
 from scipy.stats import norm
 from array import array
 
-filename3 = 'C:/Users/Avite/Dropbox/Python/Black/New folder/option-chain-ED-NIFTY-31-Aug-2023.csv'
+filename3 = 'option-chain-ED-NIFTY-31-Aug-2023.csv'
 data3                           = pd.read_csv(filename3)
 size3                           =len(data3)
 
